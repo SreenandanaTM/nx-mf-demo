@@ -1,0 +1,29 @@
+
+> nx run upload:serve:development
+
+- Generating browser application bundles (phase: setup)...
+[1m[33m    TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browserslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility[39m[22m
+[1m[33m    NOTE: You can set the "target" to "ES2022" in the project's tsconfig to remove this warning.[39m[22m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCannot read properties of undefined (reading 'tap')[39m
+TypeError: Cannot read properties of undefined (reading 'tap')
+    at ModuleFederationPlugin.apply (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\webpack\lib\container\ModuleFederationPlugin.js:46:27)
+    at createCompiler (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\@angular-devkit\build-angular\node_modules\webpack\lib\webpack.js:81:12)
+    at create (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\@angular-devkit\build-angular\node_modules\webpack\lib\webpack.js:154:16)
+    at webpack (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\@angular-devkit\build-angular\node_modules\webpack\lib\webpack.js:182:32)
+    at Object.f [as webpackFactory] (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\@angular-devkit\build-angular\node_modules\webpack\lib\index.js:73:50)
+    at createWebpack (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\@angular-devkit\build-webpack\src\builders\webpack-dev-server\index.js:23:36)
+    at runWebpackDevServer (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\@angular-devkit\build-webpack\src\builders\webpack-dev-server\index.js:47:12)
+    at C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\@angular-devkit\build-angular\src\builders\dev-server\webpack-server.js:159:56
+    at C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\rxjs\src\internal\operators\switchMap.ts:109:21
+    at OperatorSubscriber._this._next (C:\Users\Sreenandana.tm\OneDrive - NeST Group\Desktop\Angular\angular-nx-demo\node_modules\rxjs\src\internal\operators\OperatorSubscriber.ts:70:13)
+
+
+
+ NX   Running target serve for project upload failed
+
+Failed tasks:
+
+- upload:serve:development
+
+Hint: run the command with --verbose for more details.
+
