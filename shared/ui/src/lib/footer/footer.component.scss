@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    padding: 14px 0;
+    text-align: center;
+    background: #111827;
+    color: #cbd5e1;
+    border-top: 1px solid #334155;
+    font-size: 14px;
+    p{
+        margin: 0;
+    }
+
+    :hover{
+        color: #7c9cff;
+        transition: 0.3s ease;
+    }
+}

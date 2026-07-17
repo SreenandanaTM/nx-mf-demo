@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { UploadComponent } from '../upload/upload.component';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, NxWelcomeComponent],
+  imports: [CommonModule, UploadComponent],
   selector: 'app-upload-entry',
-  template: `<app-nx-welcome></app-nx-welcome>`,
+  template: `<app-upload></app-upload>`,
 })
 export class RemoteEntryComponent {}
